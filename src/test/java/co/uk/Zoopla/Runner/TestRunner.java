@@ -3,6 +3,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 import cucumber.api.Plugin.*;
+import cucumber.api.PendingException;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
